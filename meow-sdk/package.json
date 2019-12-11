@@ -1,0 +1,22 @@
+{
+  "name": "meow-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=develop rollup -c --watch",
+    "build": "cross-env NODE_ENV=production rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "cross-env": "^6.0.3",
+    "rollup": "^1.27.9",
+    "rollup-plugin-babel": "^4.3.3"
+  }
+}
